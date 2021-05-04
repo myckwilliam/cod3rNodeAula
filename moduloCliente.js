@@ -1,7 +1,6 @@
-const {ola, bemVindo, ateLogo} = require('./moduloA')
+const moduloA = require('./moduloA')
 const { boaTarde, boaNoite, bomDia } = require('./moduloB')
-const moduloB = require('./moduloB')
-console.log(ateLogo)
+console.log(moduloA.ateLogo)
 console.log(bomDia);
 console.log(boaTarde.bomHumor)
-console.log(boaNoite())
+console.log(boaNoite()) 
