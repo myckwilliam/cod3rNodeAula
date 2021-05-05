@@ -1,7 +1,7 @@
 module.exports = {
     bomDia: 'Bom dia',
     boaNoite() {
-        return 'Boa oite'
+        return 'Boa noite'
     },
     boaTarde: {
         bomHumor: 'Tarde top!',
