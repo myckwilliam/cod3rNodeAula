@@ -1,7 +1,6 @@
 {
   "name": "cod3rNodeAula",
   "version": "1.0.0",
-  "description": "",
   "main": "moduloA.js",
   "dependencies": {
     "axios": "^0.21.1",
@@ -21,5 +20,6 @@
   "bugs": {
     "url": "https://github.com/myckwilliam/cod3rNodeAula/issues"
   },
-  "homepage": "https://github.com/myckwilliam/cod3rNodeAula#readme"
+  "homepage": "https://github.com/myckwilliam/cod3rNodeAula#readme",
+  "description": ""
 }
