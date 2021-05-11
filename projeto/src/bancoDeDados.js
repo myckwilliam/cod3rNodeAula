@@ -22,7 +22,7 @@ const getProdutos = _ => {
 const excluirProduto = id => {
     const produto = produtos[id]
     delete produtos[id]
-    return produto
+    return produto.nome
 }
 
-module.exports = {salvarProduto, getProduto, getProdutos}
+module.exports = {salvarProduto, getProduto, getProdutos, excluirProduto}
