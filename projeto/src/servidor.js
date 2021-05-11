@@ -32,6 +32,11 @@ app.put('/produtos/:id', (req, res, next) => {
     res.send(produto); //JSON
 })
 
+app.delete('/produtos/:id', (req, res, next) => {
+    const produto = bancoDeDados.excluirProduto(req.params.id);
+    res.send(`Produto ${produto} excluído.`)
+})
+
 app.listen(porta, () => {
     console.log('Servidor executando na porta ' + porta);
 })
